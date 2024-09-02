@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CreationalPatterns\Builder\AggregateRoot\RequestingCustomer.cs" />
+    <Compile Include="CreationalPatterns\Builder\Enum\EnumPaymentOrder.cs" />
+    <Compile Include="CreationalPatterns\Builder\Enum\EnumProductType.cs" />
+    <Compile Include="CreationalPatterns\Builder\Order.cs" />
+    <Compile Include="CreationalPatterns\Builder\Interface\IOrder.cs" />
+    <Compile Include="CreationalPatterns\Builder\AggregateRoot\Product.cs" />
     <Compile Include="CreationalPatterns\Singleton\SingletonMethodOne.cs" />
     <Compile Include="CreationalPatterns\Singleton\SingletonMethodThree.cs" />
     <Compile Include="CreationalPatterns\Singleton\SingletonMethodTwo.cs" />
@@ -69,7 +75,6 @@
     <Folder Include="BehavioralPatterns\TemplateMethod\" />
     <Folder Include="BehavioralPatterns\Visitor\" />
     <Folder Include="CreationalPatterns\AbstractFactory\" />
-    <Folder Include="CreationalPatterns\Builder\" />
     <Folder Include="CreationalPatterns\FactoryMethod\" />
     <Folder Include="CreationalPatterns\Prototype\" />
     <Folder Include="StructuralPatterns\Adapter\" />
