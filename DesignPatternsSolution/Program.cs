@@ -1,8 +1,9 @@
 ﻿using DesignPatternsSolution.CreationalPatterns.Builder.AggregateRoot;
 using DesignPatternsSolution.CreationalPatterns.Builder.Enum;
 using DesignPatternsSolution.CreationalPatterns.Builder;
-using DesignPatternsSolution.CreationalPatterns.Singleton;
 using System;
+using DesignPatternsSolution.StructuralPatterns.Decorator;
+using DesignPatternsSolution.StructuralPatterns.Decorator.Notifications;
 
 
 namespace DesignPatternsSolution
@@ -11,6 +12,18 @@ namespace DesignPatternsSolution
     {
         static void Main(string[] args)
         {
+            var basicNotify = new BasicNofitication();
+            var fullNotify = new FullNotification();
+
+            var basicEmail = new EmailDecorator(basicNotify);
+            var fullEmail = new EmailDecorator(fullNotify);
+
+            // Decorando com envio por SMS
+
+            // Enviando a notificação
+            basicEmail.SendNotification("Compra realizada com sucesso");
+            fullEmail.SendNotification("Pedido negado");
+            return;
             // ex Singleton: SingletonMethodTwo.TestingSingletonInParallel();
             // ex: Build:
             var requestingCustomer = new RequestingCustomer

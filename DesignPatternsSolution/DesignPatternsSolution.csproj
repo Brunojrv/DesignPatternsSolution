@@ -57,6 +57,11 @@
     <Compile Include="CreationalPatterns\Singleton\SingletonMethodTwo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StructuralPatterns\Decorator\Notifications\BasicNofitication.cs" />
+    <Compile Include="StructuralPatterns\Decorator\Notifications\EmailDecorator.cs" />
+    <Compile Include="StructuralPatterns\Decorator\Interface\INotify.cs" />
+    <Compile Include="StructuralPatterns\Decorator\Notifications\FullNotification.cs" />
+    <Compile Include="StructuralPatterns\Decorator\Notifications\NotificationDecorator.cs" />
     <Compile Include="StructuralPatterns\Facade\FacadePattern.cs" />
     <Compile Include="StructuralPatterns\Facade\ProcessPaymentFacade.cs" />
     <Compile Include="StructuralPatterns\Facade\ProductFacade.cs" />
@@ -84,7 +89,6 @@
     <Folder Include="StructuralPatterns\Adapter\" />
     <Folder Include="StructuralPatterns\Bridge\" />
     <Folder Include="StructuralPatterns\Composite\" />
-    <Folder Include="StructuralPatterns\Decorator\" />
     <Folder Include="StructuralPatterns\Flyweight\" />
     <Folder Include="StructuralPatterns\Proxy\" />
     <Folder Include="Tests\BehavioralPatternsTests\" />
