@@ -57,6 +57,9 @@
     <Compile Include="CreationalPatterns\Singleton\SingletonMethodTwo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StructuralPatterns\Adapter\Interface\IPaymentAdapter.cs" />
+    <Compile Include="StructuralPatterns\Adapter\LegacyPaymentAdapter.cs" />
+    <Compile Include="StructuralPatterns\Adapter\NewPaymentAdapter.cs" />
     <Compile Include="StructuralPatterns\Decorator\Notifications\BasicNofitication.cs" />
     <Compile Include="StructuralPatterns\Decorator\Notifications\EmailDecorator.cs" />
     <Compile Include="StructuralPatterns\Decorator\Interface\INotify.cs" />
@@ -86,7 +89,6 @@
     <Folder Include="CreationalPatterns\AbstractFactory\" />
     <Folder Include="CreationalPatterns\FactoryMethod\" />
     <Folder Include="CreationalPatterns\Prototype\" />
-    <Folder Include="StructuralPatterns\Adapter\" />
     <Folder Include="StructuralPatterns\Bridge\" />
     <Folder Include="StructuralPatterns\Composite\" />
     <Folder Include="StructuralPatterns\Flyweight\" />
