@@ -57,6 +57,10 @@
     <Compile Include="CreationalPatterns\Singleton\SingletonMethodTwo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StructuralPatterns\Facade\FacadePattern.cs" />
+    <Compile Include="StructuralPatterns\Facade\ProcessPaymentFacade.cs" />
+    <Compile Include="StructuralPatterns\Facade\ProductFacade.cs" />
+    <Compile Include="StructuralPatterns\Facade\StockFacade.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -81,7 +85,6 @@
     <Folder Include="StructuralPatterns\Bridge\" />
     <Folder Include="StructuralPatterns\Composite\" />
     <Folder Include="StructuralPatterns\Decorator\" />
-    <Folder Include="StructuralPatterns\Facade\" />
     <Folder Include="StructuralPatterns\Flyweight\" />
     <Folder Include="StructuralPatterns\Proxy\" />
     <Folder Include="Tests\BehavioralPatternsTests\" />
